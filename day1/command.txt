@@ -1,0 +1,7 @@
+git clone (repository path)
+git status
+git restore
+git add (filenanem)
+git commit -m "message"
+git push origin branch name (main/branch)
+
