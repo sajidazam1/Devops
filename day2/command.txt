@@ -1,0 +1,42 @@
+  388  git status
+  389  cat command.txt
+  390  git commit -m "added day1 folder and files"
+  391  git commit -m "added day1 folder and files"
+  392  git config -l
+  393  git clone https://github.com/sajidazam1/Devops.git
+  394  git init
+  395  cd devops
+  396  pwd
+  397  git status
+  398  cd ..
+  399  ls
+  400  cd Devops/
+  401  git status
+  402  git push origin main
+  403  mkdir day1
+  404  cd day1/
+  405  touch command.txt
+  406  vi command.txt
+  407  cat command.txt
+  408  git status
+  409  git add command.txt mand.txt
+  410  git add command.txt
+  411  git status
+  412  git commit -m "added command.txt in day1 folder"
+  413  git status
+  414  git push origin main
+  415  pwd
+  416  cd Devops
+  417  cd ..
+  418  pwd
+  419  ls
+  420  mkdir day2
+  421  cd day2
+  422  ls
+  423  cd day1
+  424  ls
+  425  cd ..
+  426  ls
+  427  cd day1
+  428  history
+
