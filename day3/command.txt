@@ -1,0 +1,13 @@
+third session of Git
+Learning about git strategies and branches.
+how to create branch and checkout from one branch to another.
+1.git clone https address -b branch name
+2.cd go inside the branch
+
+
+branching commands
+1.git checkout -b branchname(create a new branch)
+2.git checkout(for branch change)
+3.compare and pull request on github to merge
+4.git commit -m "commiting on branch"
+5.git push origin (branch name)
