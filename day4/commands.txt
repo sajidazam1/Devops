@@ -1,0 +1,12 @@
+1.Git checkout -b (new branch name)......for creating new branch
+2.Git checkout branch name....for switch from one branch to another.
+3.Git push origin --delete branch name....to delete branch from remote repo.
+4.cp -r(recursive mode) test-nodejs /tmp
+5.mkdir -p(parent mode) test/test/test.txt.
+6.Read(4)write(2)execute(1)
+7.chmod ugo+x for all permissions
+8.chmod 755 sajid.sh(rwe-r--e-r--e)
+9.mkdir -p -v movies/2004(for creating movies folder and 2004 file in movies folder)
+10.touch abc1.txt abc2.txt abc3.txt
+11.touch abc{4..10}.txt
+12.ps:process check.
