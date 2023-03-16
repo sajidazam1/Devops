@@ -1,0 +1,43 @@
+user add in group command
+sudo chown sajid:capital /world/Asia/India/Delhi.
+
+
+1.Add user:
+sudo adduser (username)
+* sudo chown dilip:  world/Asia/India/delhi
+*sudo chown dilip:capital (path)
+
+
+Add new user:
+sudo useradd rahul
+cat /etc/passwd
+
+delete user:
+sudo userdel (username)
+cat /etc/group
+uid find: id -u user
+uid find of group:id -g groupname
+
+
+note:
+*chown change od ownership
+*chmod parmission change
+
+~:home directory
+$:normal user
+#:root user
+
+
+*switch user: su sajid
+
+
+Q:how to add a user in sudo group?
+
+sudo adduser newuser
+add user to sudo group
+sudo usermod -aG sudo newgroup
+
+groups newuser
+su newuser
+cat /etc/passwd......see user
+sudo -su root
