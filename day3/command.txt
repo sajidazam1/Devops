@@ -11,3 +11,4 @@ branching commands
 3.compare and pull request on github to merge
 4.git commit -m "commiting on branch"
 5.git push origin (branch name)
+6.git merge branch name
