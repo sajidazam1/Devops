@@ -1,0 +1,13 @@
+ACLs:Acess control List
+specific user permission
+getfacl directory name
+adduser dilip
+getfacl dilip
+
+setfacl -m "u:user(dilip):-wx" path(Devops/) .....(for user)
+setfacl -m "g:group:-wx" path(group path).....(for group)
+remove all user entries:setfacl -b Devops(users)
+
+
+setfacl -dm "entry" path/to/file.....inherit command 
+

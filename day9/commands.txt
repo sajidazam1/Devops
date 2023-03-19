@@ -1,0 +1,49 @@
+oot-1@Lenovo-330S-14IKB:~/Desktop$ sudo useradd dilip
+[sudo] password for root-1: 
+root-1@Lenovo-330S-14IKB:~/Desktop$ ls -al
+total 12
+drwxr-xr-x  3 root-1 root-1 4096 Mar 19 11:10 .
+drwxr-x--- 15 root-1 root-1 4096 Mar 19 22:40 ..
+drwxrwxr-x 11 root-1 root-1 4096 Mar 19 11:10 Devops
+root-1@Lenovo-330S-14IKB:~/Desktop$ getfacl Devops/
+# file: Devops/
+# owner: root-1
+# group: root-1
+user::rwx
+group::rwx
+other::r-x
+
+root-1@Lenovo-330S-14IKB:~/Desktop$ setfacl -m "u:dilip:w" Devops/
+root-1@Lenovo-330S-14IKB:~/Desktop$ getfacl
+Usage: getfacl [-aceEsRLPtpndvh] file ...
+Try `getfacl --help' for more information.
+root-1@Lenovo-330S-14IKB:~/Desktop$ getfacl Devops/
+# file: Devops/
+# owner: root-1
+# group: root-1
+user::rwx
+user:dilip:-w-
+group::rwx
+mask::rwx
+other::r-x
+
+root-1@Lenovo-330S-14IKB:~/Desktop$ setfacl -m "u:dilip:-wx" Devops/
+root-1@Lenovo-330S-14IKB:~/Desktop$ getfacl Devops/
+# file: Devops/
+# owner: root-1
+# group: root-1
+user::rwx
+user:dilip:-wx
+group::rwx
+mask::rwx
+other::r-x
+
+root-1@Lenovo-330S-14IKB:~/Desktop$ setfacl -b Devops/
+root-1@Lenovo-330S-14IKB:~/Desktop$ getfacl Devops/
+# file: Devops/
+# owner: root-1
+# group: root-1
+user::rwx
+group::rwx
+other::r-x
+
