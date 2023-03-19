@@ -1,0 +1,41 @@
+user and groups
+
+current users
+- show current user
+#list all users
+-cat /etc/passwd
+
+#list group
+#show groups for current user
+-groups
+#show group for user
+-groups username
+#list all groups
+-cat /etc/group
+
+#create a new user
+-useradd newuser
+
+#create a new user and assign a group in on command
+-useradd -G groupname username
+or
+-useradd -G group1,group2,group3 username
+
+#add new group
+-groupadd newgroup 
+ 
+#add existing user to a group
+-usermod -aG group username
+
+#add user to multiple group 
+- usermod -aG group1,group2,group3 username
+
+
+#Add user
+useradd user1
+
+#removing user from group
+-gpasswd -d username group group to remove from
+
+#delete group 
+- sudo groupdel groupname
