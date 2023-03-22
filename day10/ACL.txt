@@ -1,0 +1,16 @@
+ACL:Acess Control List
+
+sudo getfacl -m "u:user:permission" path(for user)
+
+
+sudo getfacl -m "g:group:permission" path(group)
+
+
+example:sudo getfacl -m "u:dilip:-wx" Devops
+
+delete all user:
+getfacl -b Devops
+
+
+installation of Acl:sudo apt install acl -y
+
