@@ -1,0 +1,10 @@
+#creating multiple file in single coomand.
+
+-touch abc{1..10}.txt
+
+#delete at once 
+
+- rm -rf abc{1..10}.txt
+
+
+
